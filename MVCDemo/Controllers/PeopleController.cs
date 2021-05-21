@@ -13,6 +13,10 @@ namespace MVCDemo.Controllers
         // GET: People
         public ActionResult Index()
         {
+            // to simulate an error and show error page on hitting this error
+            //PersonModel p = new PersonModel();
+            //int i = 10 / p.Age;
+
             return View();
         }
 
