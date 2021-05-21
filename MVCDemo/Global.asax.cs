@@ -12,6 +12,7 @@ namespace MVCDemo
     {
         protected void Application_Start()
         {
+             //Starting point of asp.net web application
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
